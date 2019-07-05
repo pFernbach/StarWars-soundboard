@@ -1,0 +1,527 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+    <!--  android:background="@drawable/starwars_hypersace" -->
+
+
+    <!-- base vertical -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:useDefaultMargins="false"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/b_Stop"
+            android:layout_columnSpan="2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="#f60909"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="fill"
+            android:text=" STOP ALL "/>
+
+
+        <TextView
+        android:text="Weapons"
+        android:layout_columnSpan="2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+
+
+        <Button
+            android:id="@+id/bWeapon_Battledroid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Battle droid blaster" />
+
+        <Button
+            android:id="@+id/bWeapon_Blaster_pistol"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Blaster pistol" />
+
+        <Button
+            android:id="@+id/bWeapon_Bowcaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Chewie bowcaster" />
+
+        <Button
+            android:id="@+id/bWeapon_Droideka"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Droideka blaster" />
+
+        <Button
+            android:id="@+id/bWeapon_Han_blaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Han blaster" />
+
+        <Button
+            android:id="@+id/bWeapon_Jango_blaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Jango blaster" />
+
+        <Button
+            android:id="@+id/bWeapon_Stormtrooper_blaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Stormtrooper blaster" />
+
+
+
+
+        <Button
+            android:id="@+id/bWeapon_big_shootout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Big shootout" />
+
+        <Button
+            android:id="@+id/bWeapon_Boba_blaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Boba blaster" />
+
+        <Button
+            android:id="@+id/bWeapon_Clone_blaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Clone trooper blaster" />
+
+        <Button
+            android:id="@+id/bWeapon_sonic_blaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Sonic blaster" />
+
+        <Button
+            android:id="@+id/bWeapon_Ion_blaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Ion blaster" />
+
+        <Button
+            android:id="@+id/bWeapon_Salve_blaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Salve blaster" />
+
+        <Button
+            android:id="@+id/bWeapon_stun_blaster"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="Stun blaster" />
+
+
+
+        <!-- Vaisseaux -->
+        <TextView
+            android:text="Ships"
+            android:layout_columnSpan="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+
+
+            <Button
+                android:id="@+id/bShip_alarm_shield"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Alarm shield" />
+
+            <Button
+                android:id="@+id/bShip_Engine_trouble"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Engine trouble" />
+
+            <Button
+                android:id="@+id/bShip_Hyp_fail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Hyperdrive failure" />
+
+            <Button
+                android:id="@+id/bShip_speed_approach"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Landspeeder approach" />
+
+            <Button
+                android:id="@+id/bShip_Quad_laser"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Quad-laser turret" />
+
+            <Button
+                android:id="@+id/bShip_TIE_fire"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="TIE fire" />
+
+
+            <Button
+                android:id="@+id/bShip_walker"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Walker" />
+
+            <Button
+                android:id="@+id/bShip_XWING_fly"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="X-Wing flyby" />
+
+
+
+            <Button
+                android:id="@+id/bShip_Electric_trouble"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Electrical trouble" />
+
+            <Button
+                android:id="@+id/bShip_Falcon_fly"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Falcon flyby" />
+
+            <Button
+                android:id="@+id/bShip_speeder_acc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Landspeeder accelerate" />
+
+            <Button
+                android:id="@+id/bShip_lighspeed_jump"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Lightspeed jump" />
+
+            <Button
+                android:id="@+id/bShip_Speeder_bike"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Speeder bike" />
+
+            <Button
+                android:id="@+id/bShip_TIE_Fly"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="TIE flyby" />
+
+
+            <Button
+                android:id="@+id/bShip_XWING_fire"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="X-Wing fire" />
+
+
+        <!-- species -->
+        <TextView
+            android:text="Aliens"
+            android:layout_columnSpan="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+            <Button
+                android:id="@+id/bSpecie_buzz_droid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Buzz droid" />
+
+
+            <Button
+                android:id="@+id/bSpecie_Gamorean_snort"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Gamorrean snort" />
+
+
+            <Button
+                android:id="@+id/bSpecie_hutt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Hutt" />
+
+
+            <Button
+                android:id="@+id/bSpecie_hutt2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Hutt 2" />
+
+
+            <Button
+                android:id="@+id/bSpecie_jawa1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Jawa" />
+
+
+            <Button
+                android:id="@+id/bSpecie_iobot"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Iobot" />
+
+
+            <Button
+                android:id="@+id/bSpecie_r2d22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="R2-D2 2" />
+
+            <Button
+                android:id="@+id/bSpecie_rancor_groar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Rancor roar" />
+
+
+            <Button
+                android:id="@+id/bSpecie_Salacious1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Salacious Crumb 1" />
+
+            <Button
+                android:id="@+id/bSpecie_wookie"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Wookie" />
+
+            <Button
+                android:id="@+id/bSpecie_wookie_sad"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Wookie (sad)" />
+
+
+            <Button
+                android:id="@+id/bSpecie_Gamorean_grunt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Gamorrean grunt" />
+
+
+            <Button
+                android:id="@+id/bSpecie_gonk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Gonk droid" />
+
+
+            <Button
+                android:id="@+id/bSpecie_Hutt_laugh"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Hutt Laugh" />
+
+
+
+            <Button
+                android:id="@+id/bSpecie_probe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Imperial probe droid" />
+
+
+
+            <Button
+                android:id="@+id/bSpecie_jawa_angry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Jawa angry" />
+
+
+            <Button
+                android:id="@+id/bSpecie_r2d21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="R2-D2 1" />
+
+
+            <Button
+                android:id="@+id/bSpecie_r2d23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="R2-D2 3" />
+
+
+            <Button
+                android:id="@+id/bSpecie_rancor_snack"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Rancor snack" />
+
+
+            <Button
+                android:id="@+id/bSpecie_Salacious2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Salacious Crumb 2" />
+
+            <Button
+                android:id="@+id/bSpecie_wookie_angry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Wookie (angry)" />
+
+
+
+        <!-- Misc -->
+        <TextView
+            android:text="Misc"
+            android:layout_columnSpan="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+            <Button
+                android:id="@+id/bMisc_big_splosion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Big explosion" />
+
+
+            <Button
+                android:id="@+id/bMisc_cell_door"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Door" />
+
+            <Button
+                android:id="@+id/bMisc_battle_alarm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Imperial battle alarm" />
+
+            <Button
+                android:id="@+id/bMisc_small_splosion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Small explosion" />
+
+
+            <Button
+                android:id="@+id/bMisc_blast_door"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Blast door" />
+
+            <Button
+                android:id="@+id/bMisc_Computer_bip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Computer bip" />
+
+
+            <Button
+                android:id="@+id/bMisc_Ship_damage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Ship damage" />
+
+
+            <Button
+                android:id="@+id/bMisc_storm_on_the_move"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:text="Stromtrooper on the move" />
+
+
+
+    </GridLayout><!-- base verticale -->
+</ScrollView>
